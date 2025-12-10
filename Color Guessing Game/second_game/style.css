@@ -1,0 +1,41 @@
+body {
+    background: #232946;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+.container {
+    width: 60%;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.box {
+    height: 120px;
+    background: gray;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+.reset {
+    padding: 12px 25px;
+    border: none;
+    margin-top: 20px;
+    background: #e63946;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
